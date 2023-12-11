@@ -21,6 +21,7 @@ Just follow the ifixit guide. Plus some additional notes:
 Serial memory is below the largest EMI shield. 
 I misjudged from the ifixit photos and openend up the power regulator shielding first. Displaced some capacitors (yellow marking) on the way...
 ![PXL_20231211_085445772](https://github.com/l33tn00b/echoShowGen1/assets/28904067/97b5b1f9-2a98-48e4-b2a7-d8435c76f359)
-Not much of a deal, can be undone. 
+Not much of a deal, can be undone. More of a deal is heat damage done to the cable connectors (...let's do it, quick...use the big heat gun). So the board is broken, kinda. 
+While ifixit found a W25Q16FW serial memory chip, ours had a Macronix MX25U1635F (https://www.macronix.com/Lists/Datasheet/Attachments/8669/MX25U1635F,%201.8V,%2016Mb,%20v1.6.pdf). Functionally identical.
 
 
