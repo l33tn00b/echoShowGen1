@@ -62,6 +62,10 @@ Good news: some ground pads are at identical positions. But not all....
 ## Top View
 NSTR.
 
+## I/O Cable
+45Pin Cable, some pins are used in conjuction (Voltages).
+![iocable_identical_signals](https://github.com/l33tn00b/echoShowGen1/assets/28904067/621871f8-82d0-4079-9c62-b7f67a763c2e)
+
 # Top / Mic PCB
 Mostly ADCs: https://www.ti.com/product/TLV320ADC3101
 
