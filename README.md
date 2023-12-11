@@ -57,6 +57,7 @@ This isn't just your average power supply board. On the bottom side, there's the
 Looking closely at the pads, there's buried vias. Pretty much each pad. Except for the ground pads or the ones that are directly connected to a trace.  
 How come, I suspect the main purpose to be a USB connection? Because of the traces running to the empty USB socket pads (see above) and the protection diodes (placed) as well as two (no-placed) resistors (R2000, R2001) on the traces usually reserved for USB data signals. 
 So this is the port which is used for inital software loading at the factory with USB signals termination done on the outside. J2000 (USB connector) probably is a leftover from development.
+Good news: some ground pads are at identical positions. But not all.... 
 
 ## Top View
 NSTR.
