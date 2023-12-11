@@ -23,7 +23,7 @@ I misjudged from the ifixit photos and openend up the power regulator shielding 
 ![Serial memory, EMI shield removed](https://github.com/l33tn00b/echoShowGen1/assets/28904067/97b5b1f9-2a98-48e4-b2a7-d8435c76f359)
 Not much of a deal, can be undone. More of a deal is heat damage done to the cable connectors (...let's do it, quick...use the big heat gun). So the board is broken, kinda. 
 While ifixit found a W25Q16FW serial memory chip, ours had a Macronix MX25U1635F (https://www.macronix.com/Lists/Datasheet/Attachments/8669/MX25U1635F,%201.8V,%2016Mb,%20v1.6.pdf). Functionally identical.  
-Package looks like a 8-land WSON 6mmx5mm. Gotta get an adapter for this one... 
+Package looks like an 8-land WSON 6mmx5mm. Gotta get an adapter for this one... 
 
 Serial Memory has come off. Forgot to check the datasheet, was suprised by the amount of heat/time it took to come off. Well, there's a large (thermal) pad at the underside (yellow arrow). Had to take the BF(H)G (H is for heat, it's 30 years of Doom, yay!).
 ![Serial memory chip flipped from PCB](https://github.com/l33tn00b/echoShowGen1/assets/28904067/9f494dee-ff11-464b-a62d-1a441e16aedd)
@@ -42,4 +42,13 @@ Here's the flash. Coming off much more easily (because the PCB had already been 
 ![Flash Chip, Bottom BGA Pads](https://github.com/l33tn00b/echoShowGen1/assets/28904067/19ed907c-ee6d-493f-8dbc-27a81267302d)
 
 Except for the main PCB. Which didn't appreciate the beating (err.. heating) and started delaminating.
-I sometimes long for professional tools... Well, that's part of the fun. Doing stuff you're not supposed to do using tools not made for the job. 
+I sometimes long for professional tools... Well, that's part of the fun. Doing stuff you're not supposed to do using tools not made for the job. Anyone have a job offer coming with decent tools?
+
+# Base PCB / Power Supply Board
+This isn't just your average power supply board. On the bottom side, there's the entire analogue audio section and a debug/test/programming header. The debug header looks pretty much like the one on the original (no-show) Echo: https://vanderpot.com/2016/06/amazon-echo-rooting-part-1/ Bummer, it's not the same. More on that later.
+## Bottom View
+![Base PCB bottom](https://github.com/l33tn00b/echoShowGen1/assets/28904067/b29b3cfc-209c-4fc8-91d8-ccc68e94d195)
+- Green: Audio Amplifier Chip, TPA3118, https://www.ti.com/product/de-de/TPA3118D2
+- Blue: Audio Codec, WM8904, https://www.cirrus.com/products/wm8904/
+- 
+
