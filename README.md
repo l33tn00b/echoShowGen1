@@ -28,6 +28,7 @@ Package looks like a 8-land WSON 6mmx5mm. Gotta get an adapter for this one...
 Serial Memory has come off. Forgot to check the datasheet, was suprised by the amount of heat/time it took to come off. Well, there's a large (thermal) pad at the underside (yellow arrow). Had to take the BF(H)G (H is for heat, it's 30 years of Doom, yay!).
 ![Serial memory chip flipped from PCB](https://github.com/l33tn00b/echoShowGen1/assets/28904067/9f494dee-ff11-464b-a62d-1a441e16aedd)
 
+I am sorry to report that none of the relevant pins of the memory chip have been broken out to any test points. Same for debug headers... So it's either de-soldering the chip or directly attaching wires to the pins. One litte upside: U1800 (the rectangular BGA pattern next to the chip) has all the signals. But it's no fun attaching wires, there.
 
 # Going for the Flash:
 ![Flash chip marked on main PCB](https://github.com/l33tn00b/echoShowGen1/assets/28904067/e9ffc287-7e69-4c40-8244-eb14e27e107f)
