@@ -45,7 +45,8 @@ Except for the main PCB. Which didn't appreciate the beating (err.. heating) and
 I sometimes long for professional tools... Well, that's part of the fun. Doing stuff you're not supposed to do using tools not made for the job. Anyone have a job offer coming with decent tools?
 
 # Base PCB / Power Supply Board
-This isn't just your average power supply board. On the bottom side, there's the entire analogue audio section and a debug/test/programming header. The debug header looks pretty much like the one on the original (no-show) Echo: https://vanderpot.com/2016/06/amazon-echo-rooting-part-1/ Bummer, it's not the same. More on that later.
+This isn't just your average power supply board. On the bottom side, there's the entire analogue audio section and a debug/test/programming header. The debug header looks pretty much like the one on the original (no-show) Echo: https://vanderpot.com/2016/06/amazon-echo-rooting-part-1/ Bummer, it's not the same. More on that later. But the board still takes +15 Volts at the barrel jack input. 
+
 ## Bottom View
 ![Base PCB bottom](https://github.com/l33tn00b/echoShowGen1/assets/28904067/b29b3cfc-209c-4fc8-91d8-ccc68e94d195)
 - Green: Audio Amplifier Chip, TPA3118, https://www.ti.com/product/de-de/TPA3118D2
