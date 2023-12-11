@@ -31,6 +31,6 @@ Package looks like a 8-land WSON 6mmx5mm. Gotta get an adapter for this one...
 Also below the largest EMI shield, right next to the CPU.
 Also displaced a capacitor (yellow marking) because of the pliers I had inserted below the EMI shield to just flip it off. This one is much harder ro re-align. Board even more broken. Unsolder the flash. 
 It's an 8GB NAND from Kiaoxia: THGBMJG6C1LBAIL. https://datasheet.lcsc.com/lcsc/2004271813_KIOXIA-THGBMJG6C1LBAIL_C524518.pdf
-How very convienient: it's not pure flash but has an eMMC controller included which makes reading a breeze.
+How very convienient: it's not pure flash but has an eMMC controller included which makes reading a breeze. Go for an AllIcSocket BGA 153 Reader on Aliexpres (or ebay, or Amazon, or...). 
 
 
