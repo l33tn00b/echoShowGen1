@@ -1,6 +1,8 @@
 # echoShowGen1
 Just some oberservations tearing down an Echo Show Gen1.
-There's a ton of previous work on this: See e.g. https://de.ifixit.com/Teardown/Amazon+Echo+Show+Teardown/94625
+There's a ton of previous work on this: See e.g. 
+- https://de.ifixit.com/Teardown/Amazon+Echo+Show+Teardown/94625
+- https://dontvacuum.me/papers/ACMWisec-2021/Amazon_Echo_Forensics_for_WISEC_final.pdf
 But since I had a broken one (or so I thought, well ... now it's broken) I decided to do it myself.
 
 # Mechanical Disassembly
