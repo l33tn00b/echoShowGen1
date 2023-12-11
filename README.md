@@ -63,8 +63,9 @@ Good news: some ground pads are at identical positions. But not all....
 NSTR.
 
 ## I/O Cable
-45Pin Cable, some pins are used in conjuction (Voltages).
+45Pin, 0.2mm pitch cable, some pins are used in conjuction (Voltages).
 ![iocable_identical_signals](https://github.com/l33tn00b/echoShowGen1/assets/28904067/621871f8-82d0-4079-9c62-b7f67a763c2e)
+The small pitch is giving us headaches, well, not really. But it's a pain. There's no ready-made adapters for this pitch (on ali/ebay/amazon). And I didn't really plan on making my own.
 
 # Top / Mic PCB
 Mostly ADCs: https://www.ti.com/product/TLV320ADC3101
