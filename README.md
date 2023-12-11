@@ -50,5 +50,19 @@ This isn't just your average power supply board. On the bottom side, there's the
 ![Base PCB bottom](https://github.com/l33tn00b/echoShowGen1/assets/28904067/b29b3cfc-209c-4fc8-91d8-ccc68e94d195)
 - Green: Audio Amplifier Chip, TPA3118, https://www.ti.com/product/de-de/TPA3118D2
 - Blue: Audio Codec, WM8904, https://www.cirrus.com/products/wm8904/
-- 
+- Red: Test Port
+- Amber: USB connector (J2000)
+
+### Test Port
+Looking closely at the pads, there's buried vias. Pretty much each pad. Except for the ground pads or the ones that are directly connected to a trace.  
+How come, I suspect the main purpose to be a USB connection? Because of the traces running to the empty USB socket pads (see above) and the protection diodes (placed) as well as two (no-placed) resistors (R2000, R2001) on the traces usually reserved for USB data signals. 
+So this is the port which is used for inital software loading at the factory with USB signals termination done on the outside. J2000 (USB connector) probably is a leftover from development.
+
+## Top View
+NSTR.
+
+# Top / Mic PCB
+Mostly ADCs: https://www.ti.com/product/TLV320ADC3101
+
+
 
