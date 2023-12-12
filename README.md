@@ -3,6 +3,13 @@ Just some oberservations tearing down an Echo Show Gen1.
 There's a ton of previous work on this: See e.g. 
 - https://de.ifixit.com/Teardown/Amazon+Echo+Show+Teardown/94625
 - https://dontvacuum.me/papers/ACMWisec-2021/Amazon_Echo_Forensics_for_WISEC_final.pdf
+
+## not strictly for Echo Show Gen 1 but related (later Mediatek based devices)
+- https://tinyhack.com/2021/01/31/dissecting-a-mediatek-bootrom-exploit/
+- https://github.com/xyzz/amonet
+- https://github.com/R0rt1z2/kamakiri
+- https://research.nccgroup.com/2020/10/15/theres-a-hole-in-your-soc-glitching-the-mediatek-bootrom/
+- https://dragon863.github.io/blog/echoroot.html
   
 But since I had a broken one (or so I thought, well ... now it's broken) I decided to do it myself.
 
